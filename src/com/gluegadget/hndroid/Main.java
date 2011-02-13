@@ -498,7 +498,7 @@ public class Main extends Activity {
     					if (commentsTag.length == 2)
     						commentsUrl = score.getAttributeByName("id").toString().trim();
     					
-    					scoreValue = score.getChildren().iterator().next().toString().trim();
+    					scoreValue = score.getChildren().iterator().next().toString().trim().split(" ")[0] + " pts";
     					
     					if (href.startsWith("http")) {
     						TagNode domain = (TagNode)domains[j];

@@ -24,8 +24,7 @@
 		android:layout_below="@+id/title"
 		android:layout_alignLeft="@id/title"
 		android:layout_alignParentBottom="true"
-		android:layout_toLeftOf="@+id/score"
-		android:layout_toRightOf="@+id/comments"
+		android:layout_toRightOf="@+id/score"
 		android:gravity="bottom"
 		android:textColor="#424142"
 	/>
@@ -49,7 +48,7 @@
 		android:id="@id/score"
 		android:layout_width="wrap_content"
 		android:layout_height="fill_parent"
-		android:layout_alignParentRight="true"
+		android:layout_alignParentLeft="true"
 		android:layout_alignBaseline="@id/author"
 		android:textColor="#8C8E8C"
 	/>
